@@ -1,0 +1,12 @@
+.mateWare-123 {
+    background: rgb(153,251,102);
+    background: linear-gradient(0deg, rgba(153,251,102,0.969625350140056) 0%, rgba(173,255,130,0.4150035014005602) 100%);
+}
+.mateWare-container {
+    min-height: 100vh;
+
+}
+.mateWare-serviceBox {
+    background-color: rgb(49, 49, 49);
+    min-height: 95vh;
+}
