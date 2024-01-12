@@ -1,17 +1,22 @@
 .mateWare-123 {
     background: rgb(153,251,102);
-    background: linear-gradient(0deg, rgba(153,251,102,0.969625350140056) 0%, rgba(173,255,130,0.4150035014005602) 100%);
+    background: linear-gradient(0deg, rgba(154, 251, 102, 0.767) 0%, rgba(173,255,130,0.4150035014005602) 100%);
 }
 .mateWare-container {
     min-height: 100vh;
 
 }
 .mateWare-serviceBox {
-    background-color: rgb(49, 49, 49);
-    min-height: 95vh;
+    background: rgb(36,36,36);
+    background: linear-gradient(90deg, rgba(36,36,36,1) 0%, rgba(99,99,99,1) 100%);
+    min-height: 100vh;
+    min-width: fit-content;
 }
 .mateWare-456 {
     background: rgb(173,255,130);
     background: linear-gradient(0deg, rgba(173,255,130,0.4150035014005602) 0%, rgba(153,251,102,1) 100%);
 }
-
+.mateWare-ourteamCard {
+    border-radius:50%; 
+    width: 250px;
+}
