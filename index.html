@@ -47,72 +47,121 @@
             </div>
             
         </div>
-        
-        <div class="mateWare-container mateWare-service text-center p-5" id="mw-service">
-
-            <div class="mateWare-serviceBox d-flex flex-column justify-content-evenly flex-wrap align-content-center rounded-5 ">
-                <div>
-                    <h2 class="text-light fw-bold display-5 p-3">Services</h2>
-                    <p class="text-light text-opacity-75 fs-5 px-3">Explore our offerings.</p>
-                </div>
-
-                <div class="mateWare-serviceCards d-flex flex-row justify-content-evenly flex-wrap gap-3">
-
-                    <div class="card p-4 pb-4 rounded-4 m-1" style="width: 18rem;">  
-                        <div class="card-body">
-                            <h4 class="card-title fw-bolder pb-2">Technological Solutions</h4>
-                            <p class="card-text text-secondary pb-4 ">
-                               <ul class="list-group list-group-flush text-start">
-                                    <li class="list-group-item">Understanding the Problem</li>
-                                    <li class="list-group-item"> Analysis of Alternatives</li>
-                                    <li class="list-group-item">Solution Design</li>
-                                    <li class="list-group-item">Solution Management and Development</li>
-                                    <li class="list-group-item">Solution Validation</li>
-                                    <li class="list-group-item">Manufacturing</li>
-                                </ul>
-                            </p>
-                        </div>
-                        <img src="./images/solutions.png" class="card-img-top rounded-4" alt="...">
-                    </div>
-
-                    <div class="card p-4 pb-4 rounded-4 m-1" style="width: 18rem;">  
-                        <div class="card-body">
-                            <h4 class="card-title fw-bolder pb-2">Embedded Software</h4>
-                            <p class="card-text text-secondary pb-4 ">
-                                <ul class="list-group list-group-flush text-start">
-                                     <li class="list-group-item">C/C++ Languages</li>
-                                     <li class="list-group-item">Platforms:
-                                        <br> ESP-IDF
-                                        <br> STM32
-                                        <br> RTOS
-                                        <br> PIC
-                                        <br> AVR</li>
-                                     <li class="list-group-item">Software Design and Architecture</li>
-                                     <li class="list-group-item">Software Programming and Testing</li>
-                                 </ul>
-                             </p>
-                        </div>
-                        <img src="./images/cod.png" class="card-img-top rounded-4" alt="...">
-                    </div>
-
-                    <div class="card p-4 pb-4 rounded-4 m-1" style="width: 18rem;">  
-                        <div class="card-body">
-                            <h4 class="card-title fw-bolder pb-2">PCB <br> Design</h4>
-                            <p class="card-text text-secondary pb-4 text-center">
-                                From concept to production, we create printed circuit boards tailored to the specific needs of your electronic equipment.
-                                <ul class="list-group list-group-flush text-start">
-                                     <li class="list-group-item">Circuit Design and Simulation</li>
-                                     <li class="list-group-item">Schematic Design</li>
-                                     <li class="list-group-item">PCB Design</li>
-                                     <li class="list-group-item">Generation of Manufacturing Files</li>
-                                 </ul>
-                             </p>
-                        </div>
-                        <img src="./images/pbc.png" class="card-img-top rounded-4" alt="...">
-                    </div>
-
-                </div>
+    </section>
+    
+        <div class="mateWare-container mateWare-service text-center container-fluid text-light" id="mw-service">
+            <div class="p-5"> 
+                <h1 class="display-3"><strong>Services</strong></h1>
             </div>
+
+            <div class="container text-center overflow-hidden p-5 d-flex flex-wrap">
+                <div class="row row-cols-2 gy-5">
+                    <div class="col pb-5">
+                        <div class="text-end">
+                            <h2 class="display-6">Technological Solutions</h2>
+                            <p class="h5 fw-light pb-4">In tune with your needs, we merge our knowledge with cutting-edge technology to provide you with simple and highly effective solutions. We want you to be involved in the ideation and planning of your project. From the beginning, we aim for your vision to guide our work.</p>
+                            <div class="mateWare-accordion text-end pb-5">
+                                <div class="accordion accordion-flush bg-transparent text-light" id="accordionFlushExample">
+                                    <div class="accordion-item bg-transparent text-light ">
+                                    <h2 class="accordion-header bg-transparent text-light">
+                                        <button class="accordion-button collapsed bg-light bg-opacity-75 border border-secondary rounded-4 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Capabilities
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse bg-transparent text-light" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body bg-transparent text-light">
+                                            <ul class="list-group list-group-flush mateware-list text-light">
+                                                <li class="list-group-item-trasparent fs-6 fw-medium">Understanding the Problem</li>
+                                                <li class="list-group-item-trasparent fs-6 fw-medium">Analysis of Alternatives</li>
+                                                <li class="list-group-item-trasparent fs-6 fw-medium">Solution Design</li>
+                                                <li class="list-group-item-trasparent fs-6 fw-medium">Solution Management and Development</li>
+                                                <li class="list-group-item-trasparent fs-6 fw-medium">Solution Validation</li>
+                                                <li class="list-group-item-trasparent fs-6 fw-medium">Manufacturing</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="col pb-5">
+                        <img width="600px" src="./images/solutions.png" alt="">
+                    </div>
+
+
+                    <div class="col pb-5">
+                        <img width="600px" src="./images/software.png" alt="">
+                    </div>
+                    <div class="col pb-5">                        
+                        <div class="text-start">
+                            <h2 class="display-6">Embedded Systems</h2>
+                            <p class="h5 fw-light pb-4">We breathe life into your electronic equipment, ensuring it not only functions according to your needs but surpasses your expectations through advanced embedded software solutions. Whether starting from scratch or integrating with existing developments, we also invite you to be part of the software design process if you wish.</p>
+                            <div class="mateWare-accordion text-start pb-5">
+                                <div class="accordion accordion-flush bg-transparent text-light" id="accordionFlushExample">
+                                    <div class="accordion-item bg-transparent text-light">
+                                        <h2 class="accordion-header bg-transparent text-light">
+                                            <button class="accordion-button collapsed bg-light bg-opacity-75 border border-secondary rounded-4 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                Capabilities
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseTwo" class="accordion-collapse collapse bg-transparent text-light" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body bg-transparent text-light ">
+                                                <ul class="list-group list-group-flush mateware-list text-light">
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">C/C++ Languages</li>
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">Platforms:</li>
+                                                        <li class="fs-6 fw-lighter fst-italic"><strong>-</strong> ESP-IDF</li>
+                                                        <li class="fs-6 fw-lighter fst-italic"><strong>-</strong> STM32</li>
+                                                        <li class="fs-6 fw-lighter fst-italic"><strong>-</strong> RTOS</li>
+                                                        <li class="fs-6 fw-lighter fst-italic"><strong>-</strong> PIC</li>
+                                                        <li class="fs-6 fw-lighter fst-italic"><strong>-</strong> AVR</li>
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">Software Design and Architecture</li>
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">Software Programming and Testing</li>
+
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col pb-5">
+                        <div class="text-end">
+                            <h2 class="display-6">PCB Design</h2>
+                            <p class="h5 fw-light pb-4">From concept to production, we create printed circuit boards tailored to the specific needs of your electronic equipment.</p>
+                            <div class="mateWare-accordion text-end pb-5">
+                                <div class="accordion accordion-flush bg-transparent text-light" id="accordionFlushExample">
+                                    <div class="accordion-item bg-transparent text-light ">
+                                        <h2 class="accordion-header bg-transparent text-light">
+                                            <button class="accordion-button collapsed bg-light bg-opacity-75 border border-secondary rounded-4 text-center" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                Capabilities
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapseThree" class="accordion-collapse collapse bg-transparent text-light" data-bs-parent="#accordionFlushExample">
+                                            <div class="accordion-body bg-transparent text-light">
+                                                <ul class="list-group list-group-flush mateware-list text-light">
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">Circuit Design and Simulation</li>
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">Schematic Design</li>
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">PCB Design</li>
+                                                    <li class="list-group-item-trasparent fs-6 fw-medium">Generation of Manufacturing Files</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                    <div class="col pb-5">
+                        <img width="600px" src="./images/pbc.png" alt="">
+                    </div>
+
+                </div>               
+            </div>
+
         </div>
     
     </section>
@@ -158,7 +207,7 @@
         <div class="mateWare-container mateWare-contact container-fluid text-center d-flex flex-column flex-wrap justify-content-around" id="mw-contactus">
          
                 <div class="">
-                    <h2 class="fw-bold display-4">Talk to Us.</h2>
+                    <h1 class="display-3"><strong>Talk to Us.</strong></h1>
                     <p class="fw-light fs-4">Reach out for an exploratory conversation.</p>
                 </div>
                 <div class="d-flex flex-row justify-content-around flex-wrap gap-5">
