@@ -6,12 +6,8 @@
     min-height: 100vh;
 
 }
-.mateWare-service {
-    background: rgb(70, 70, 70);
-}
 .mateWare-456 {
-    background: rgb(173,255,130);
-    background: linear-gradient(0deg, rgba(173,255,130,0.4150035014005602) 0%, rgba(153,251,102,1) 100%);
+    background: rgb(70, 70, 70);
 }
 .mateWare-ourteamCard {
     border-radius:50%; 
@@ -20,6 +16,6 @@
 .mateware-list {
     list-style: none;
 }
-.mateWare-serviceRow {
-
+.mateWare-service {
+    background: rgb(70, 70, 70);
 }
